@@ -16,8 +16,8 @@ public class S7_Switch_Case {
     public static void main(String[] args) {
         //Cấu trúc rẽ nhánh switch - case cho phép bạn lựa chọn một trong nhiều 
         //phương án có khả năng xảy ra, nó có thể dùng dể thay thế cho cấu trúc điều khiểnif - else if - else
-        int a = 3;
-        switch (a) {//a là biểu thức bên trong của switch
+        int input = 3;
+        switch (input) {//input là biểu thức bên trong của switch
             case 1:
                 System.out.println("Vào chức năng 1");
                 //Triển khai các chứng năng bên trong nó

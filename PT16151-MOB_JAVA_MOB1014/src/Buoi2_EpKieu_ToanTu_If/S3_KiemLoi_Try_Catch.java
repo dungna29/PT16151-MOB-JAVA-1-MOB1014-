@@ -20,12 +20,9 @@ public class S3_KiemLoi_Try_Catch {
         int a;//Khai báo 1 biến a không khởi tạo giá trị
         Scanner sc = new Scanner(System.in);// Gọi lớp Scanner để lấy dữ liệu người dùng từ bàn phím
         System.out.println("Mời bạn nhập số nguyên: ");//In ra màn hình một lời kêu gọi người dùng nhập vào số
-         a = sc.nextInt();//Nếu người dùng không nhập vào một số nguyên từ bàn phím sẽ làm chương trình báo lỗi và không thực thi tiếp các câu lệnh tiếp theo
-         System.out.println("Số bạn vừa nhập là: " + a);// Dòng này Chỉ thực thi nếu không có lỗi sau khi người dùng nhập vào
-        
-        
-        
-        
+        a = sc.nextInt();//Nếu người dùng không nhập vào một số nguyên từ bàn phím sẽ làm chương trình báo lỗi và không thực thi tiếp các câu lệnh tiếp theo
+        System.out.println("Số bạn vừa nhập là: " + a);// Dòng này Chỉ thực thi nếu không có lỗi sau khi người dùng nhập vào
+
         //Vì vậy ví dụ 1 vẫn còn nhiều bất cập và cần 1 giải pháp để khắc phục đó chính là Try Catch
         //Kiểm lỗi Khối try trong Java được sử dụng để bao quanh code mà có thể ném một Exception. 
         //Nó phải được thực hiện ở bên trong 1 hàm
@@ -40,7 +37,17 @@ public class S3_KiemLoi_Try_Catch {
 //            System.out.println("Bạn phải nhập số vào");//Nếu người dùng nhập không phải số nguyên sẽ in ra một thông báo cho người dùng
 //        }     
 //        System.out.println("Chúc mừng bạn đã điền số thành công");//Cho dù người dùng có nhập sai hay đúng thì chương trình luôn chạy đc hết code trong file này
-       
+    }
+
+    void testHam() {
+
+        System.out.println("abc");
+        System.out.println("abc");
+        System.out.println("abc");
+        System.out.println("abc");
+        System.out.println("abc");
+        System.out.println("abc");
+
     }
 
 }

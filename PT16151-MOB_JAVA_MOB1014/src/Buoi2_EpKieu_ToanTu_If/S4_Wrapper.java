@@ -26,6 +26,8 @@ public class S4_Wrapper {
         System.out.println(a1);
         System.out.println(a2);
         System.out.println(a3);
+        
+        
 
         double b = a1.doubleValue();// mở bao tường minh
         double b1 = a1; // mở bao ngầm định
