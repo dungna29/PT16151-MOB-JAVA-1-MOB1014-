@@ -26,12 +26,13 @@ public class Student {
     
     
     
+    
 
     //Hành vi chính là các hàm bên trong của đối tượng.
     //Các tên hàm thông thường là động từ
     //Các hàm của đối tượng viết ở cuối trong class
     // Đây được gọi là không trả về
-    void inRaManHinh() {
+   void inRaManHinh() {
         System.out.println(msv + " " +name + " " +sdt + " " +email + " " +truong + " " +diemGPA);
     }
     
