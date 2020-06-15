@@ -11,7 +11,7 @@ import Buoi5_Ham_Class.*;
  *
  * @author LegendNguyen
  */
-public class GiaoVien {
+public class GiaoVien implements Comparable<GiaoVien>{
     // Khi đóng private vào thuộc tính hoặc hàm thì chỉ được phép truy cập ở bên trong class
 
     //Phần 1: Các thuộc tính luôn phải khai báo trên đầu
@@ -101,6 +101,19 @@ public class GiaoVien {
         System.out.printf("Tên GV :  %s Số Điện Thoại GV: %s", getName(),getSdt());
         System.out.println("------------------------------------------");
 
+    }
+
+    @Override
+    public int compareTo(GiaoVien object) {
+        // return this.name.compareTo(o.name);//Sắp xếp theo tên từ bé đến lớn
+        //return -this.name.compareTo(o.name);
+        if (this.diemGPA < object.diemGPA) {
+            return -1;
+        }else if(this.diemGPA > object.diemGPA){
+            return 1;
+        }else{
+            return 0;
+        }
     }
 
 }
