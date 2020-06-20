@@ -16,7 +16,7 @@ public class S1_XuLyChuoi {
         System.out.print("\t+ Họ và tên: Kiên\r\n\t+ Tuổi: 19");
         System.out.println("");
 
-        String name = " Fpt POLY 2020 ";
+        String name = "      Fpt POLY 2020        ";
 
         //toLowerCase () //Cho hết về chữ thường
         System.out.println(name.toLowerCase());
